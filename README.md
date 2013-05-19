@@ -7,3 +7,7 @@ This is how to use it:
 %ruby ./MixedInKeyInterface.rb <some_file.mp3>
 
 It works by actually pretending to be a human user and actually clicking UI elements. So when you see a popup saying "Hands off", it means do not touch keyboard or mouse until it says "At Ease."
+
+I wrote and tested it on osx 10.6, ruby 1.9.2p290 
+
+Dependencies: rb-appscript, growl
